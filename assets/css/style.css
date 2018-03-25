@@ -61,6 +61,7 @@ h3 {
   color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
+  padding-top: 70px;   
 }
 
 #logo {
@@ -120,7 +121,7 @@ h3, h2 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 35px;
   min-height: calc(100vh - 70px);
 }
 
@@ -132,7 +133,7 @@ h3, h2 {
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
-  padding-top: 10s0px;   
+  padding-top: 10px;   
 } 
 /* add padding-top to ensure navbar slides under instead of over */
 

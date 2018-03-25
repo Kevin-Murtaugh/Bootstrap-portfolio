@@ -1,35 +1,50 @@
-<!doctype html>
-<html lang="en-us">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Contact | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-
-<body>
-  <div class="wrapper">
-
-<!-- replace the links on each page with Bootstrap Navbar   -->
-   <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Kevin Murtaugh</a>
- 
-      <nav class="navbar navbar-default">
-          <div class="container-fluid">
-          
-              <div class="row"></div>  <!-- row within row for max compression -->
+    <meta charset="UTF-8">
   
-                <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <a href="index.html">About</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact</a>
+    <!-- per w3schools.com suggestion  -->
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Contact | Kevin Murtaugh</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+     <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  </head>
+  
+  <body>
+    <!-- alternate /experiment between container & container-fluid ...   -->
+    <div class="container-fluid">    
+      <div class="row">
+        <nav class="navbar navbar-default">
+   <!--          <div class="container">                   not sure why I ended up with container inside container ...  -->
+          <div class="masthead">
+            <div class="row">
+                 
+              <div class="navbar-header">
+  <!-- use this line to add teal block & name  -->
+                <a href="index.html" id="logo">Kevin Murtaugh</a>
+  <!-- which replaces this line...                   -->
+  <!--          <a class="navbar-brand" href="#"><h1>Kevin Murtaugh</h1></a>   -->
               </div>
-          </div>
-      </nav>
-    </header>
+                        <ul class="nav navbar-nav">
+  <!--                <li class="active"><a href="index.html">Home</a></li>      -->
+                          <li><a href="index.html">About</a></li>
+                          <li><a href="portfolio.html">Portfolio</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                        </ul>
+            </div>
+          <div>
+        <nav>
+      </div>
+    </div>
 
       <!--  <nav>
         <a href="index.html">About</a>
