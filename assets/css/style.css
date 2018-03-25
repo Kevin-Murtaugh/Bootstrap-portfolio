@@ -132,7 +132,9 @@ h3, h2 {
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
-}
+  padding-top: 10s0px;   
+} 
+/* add padding-top to ensure navbar slides under instead of over */
 
 /* portfolio page */
 
